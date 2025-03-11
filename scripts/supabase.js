@@ -1,4 +1,4 @@
-import { createClient } from "https://cdn.skypack.dev/@supabase/supabase-js"
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
 
 const supabaseUrl = 'https://dkeslpgottexhfprixrk.supabase.co'
 
@@ -18,4 +18,4 @@ async function getBooks() {
    }
 }
 
-getbooks();
+getBooks();
